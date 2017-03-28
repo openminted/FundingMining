@@ -1,0 +1,33 @@
+= Technical Information for the madIS Funding Mining Application
+
+[[sect_technical_info]]
+
+== Technical Information for the madIS Funding Mining Application
+
+*FundingMining_OMTD*
+
+_Run standalone_
+
+cat input.xml | python madis/src/mexec.py -f PATH/projects.sql -d PATH/projects.db > output.json
+
+
+*Docker*
+
+_Build_
+
+docker build -t <name>
+
+_Run_
+
+docker run -it -v <host-dir>:/usr/app/src/data --rm --name <name> <name>
+
+*Remember to declare with an absolute path, for example ${PWD}/ or /home/user/data.*
+
+_For example_:
+
+docker run -it -v $PWD/<xml_files>:/usr/app/src/data --rm --name <name> <name>
+
+*Results*
+
+The docker images expects an xml file inside the folder and writes the result in a results.json file that is saved in the host s filesystem.
+
