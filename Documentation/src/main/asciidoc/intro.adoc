@@ -9,6 +9,14 @@
 The Funding Mining application mines the fulltext of publications and extracts links to projects. Currently, projects from EC (FP7/H2020), NSF (National Science Foundation, USA), NIH (National Institute of Health, USA), Wellcome Trust, FCT, ARC (Australian Research Council), NHMRC (National Health and Medical Research Council, Australia), CSF/HRZZ (Hrvatska Zaklada Za Znanost, Croatia), MSES-MZOS, SFI (Science foundation Ireland), NWO (Nederlandse Organisatie voor Wetenschappelijk Onderzoek, Netherlands) are supported, but new funders are added regularly. 
 Initially developed as part of OpenAIRE's Inference (by mining) workflow to enrich the OpenAIRE information space, it is actively used as a standalone workflow in several E.U. funding & research evaluation tenders providing useful insight and timely intelligence of systematic research in E.U.
 
+== Data Processing Scenarios
+
+In SC-A, we have outlined the following data processing scenarios:
+
+ * <<datainput.adoc#, Adding documents to the database>>
+ * <<processing.adoc#, Extracting project links>>
+ * <<dataoutput.adoc#, Storing the results as JSON>>
 
 
 Some technical information for the application can be found at: <<technicalInformation.adoc#, Technical Information>>
+
