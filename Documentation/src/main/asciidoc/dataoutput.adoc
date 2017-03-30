@@ -1,0 +1,7 @@
+= Storing the results as JSON
+
+[[sect_dataoutput]]
+
+== Storing the results as JSON
+
+This data processing scenario is yet to be addressed in the current SC-A application.
