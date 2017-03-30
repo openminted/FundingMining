@@ -122,7 +122,7 @@
 
 
                     <execution>
-                        <id>dataoutput</id>
+                        <id>processing</id>
                         <phase>prepare-package</phase>
                         <goals>
                             <goal>process-asciidoc</goal>
