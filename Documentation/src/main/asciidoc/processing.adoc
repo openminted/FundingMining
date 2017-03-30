@@ -13,7 +13,8 @@ The following command is running the application:
 
 cat input.xml | python madis/src/mexec.py -f projects.sql -d projects.db > output.json
 
-projects.sql : The declarative query that parses the xmls and extracts the links to projects
+projects.sql : The declarative query that parses the xmls and extracts the links to projects.
+
 projects.db : An SQLite database that stores information about projects that are necessary for the extraction.
 
 
